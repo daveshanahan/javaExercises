@@ -1,5 +1,5 @@
 public static boolean isPalindrome(int number) {
-
+        // check if number is numerical palindrome
 
         if(number < 0) {
             number *= -1;
