@@ -1,4 +1,5 @@
 public static int sumFirstAndLastDigit(int number) {
+        // sum first and last digit of input
         if(number < 0) {
             return -1;
         }
