@@ -1,4 +1,5 @@
 public static boolean isOdd(int number) {
+        // check if number is odd
         if(number <= 0) {
             return false;
         }
@@ -6,6 +7,7 @@ public static boolean isOdd(int number) {
     }
 
 public static int sumOdd(int start, int end) {
+        // sum odd numbers in range start-end
         if((start <= 0) || (end <= 0) || (end < start)) {
             return -1;
         }
