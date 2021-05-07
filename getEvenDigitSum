@@ -1,0 +1,18 @@
+    public static int getEvenDigitSum(int number) {
+        // should return the sum of even digits within the number
+
+        if(number < 0) {
+            return -1;
+        }
+
+        int sumNums = 0;
+        while(number > 0) {
+            if(number % 2 == 0) {
+                sumNums += number % 10;
+            }
+
+            number /= 10;
+        }
+
+        return sumNums;
+    }
